@@ -19,6 +19,9 @@ export default function Home({navigation}: HomeProps) {
     
     // onPress={() => navigation.navigate("Details")}
 
+    // onPress={() => navigation.replace('Details', {
+    //   productId: "86"
+    // })}
     onPress={() => navigation.push('Details', {
       productId: "86"
     })}
